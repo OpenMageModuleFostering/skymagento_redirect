@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>SkyMagento_Redirect</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This module overrides 404 page with 301 permanent redirect to homepage</summary>
+    <description>This module is developed by &lt;a href="http://www.skymagento.com/services/" target="_blank"&gt;SkyMagento Solustions&lt;/a&gt; to offer users a new customized way to override default 404 page with 301 permanent redirect to homepage.&#xD;
+This should fix any SEO errors after migrating to Magento. Please note its not recommended to use this extension for life but as long as your old link structure is fully fixed in Search Engines.&#xD;
+</description>
+    <notes>This extension is delivered free of charge as a showcase of SkyMagento solutions on Magento Connect.</notes>
+    <authors><author><name>Farhan Islam</name><user>askwhyweb</user><email>farhan@askwhyweb.com</email></author></authors>
+    <date>2014-07-24</date>
+    <time>17:21:15</time>
+    <contents><target name="magelocal"><dir name="SkyMagento"><dir name="Redirect"><dir name="Block"><file name="Info.php" hash="8f38681900ec65c2ba8c6c26185cd904"/></dir><dir name="Helper"><file name="Data.php" hash="036d08bd6986d50102accf79f8bb93ad"/></dir><dir name="controllers"><file name="IndexController.php" hash="ffe6ec04388d8ee528b3885a40b062d0"/></dir><dir name="etc"><file name="config.xml" hash="2984fc589a5d60c3fbbf792ccf3ee57c"/><file name="system.xml" hash="eec08e91c4b2e772df431839cb4de12b"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="SkyMagento_Redirect.xml" hash="e4fcec4413e27169f7d695dec9f5a413"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>SkyMagento_Redirect</name><channel>community</channel><min>1.5.0.0</min><max>1.9.5</max></package></required></dependencies>
+</package>
