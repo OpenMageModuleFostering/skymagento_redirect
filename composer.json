@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/SkyMagento_Redirect",
+    "name": "openmage-module-fostering\/skymagento_redirect",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This module overrides 404 page with 301 permanent redirect to homepage",
     "authors": [

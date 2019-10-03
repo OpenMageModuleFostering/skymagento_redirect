@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 This module overrides 404 page with 301 permanent redirect to homepage
