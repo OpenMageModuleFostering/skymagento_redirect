@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/SkyMagento_Redirect",
+    "name": "OpenMageModuleFostering\/SkyMagento_Redirect",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "This module overrides 404 page with 301 permanent redirect to homepage",
     "authors": [
-    {
-        "name": "Farhan Islam",
-        "email": "farhan@askwhyweb.com"
-    }
-],
+        {
+            "name": "Farhan Islam",
+            "email": "farhan@askwhyweb.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
